@@ -25,7 +25,7 @@
       // minZoom: 9
     }).addTo(map);
     
-  $.getJSON("neighborhoods.geojson",function(hoodData){
+  $.getJSON("view-source:http://bl.ocks.org/awoodruff/raw/728754e48c11a94b522b/neighborhoods.geojson",function(hoodData){
     L.geoJson( hoodData ).addTo(map);
   });
  
