@@ -50,8 +50,8 @@
       // minZoom: 9
     }).addTo(map);
     
-  $.getJSON("neighborhoods.geojson",function(hoodData){
-    L.geoJson( hoodData ).addTo(map);
+  $.getJSON("wofru.geojson",function(wofruData){
+    L.geoJson( wofruData ).addTo(map);
   });
  
   // $.getJSON("rodents.geojson",function(data){
