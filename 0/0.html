@@ -14,8 +14,8 @@
     <h1>Earth</h1>
     <h2>0/0</h2>
     <p> -180.0,-90.0,180.0,90.0</p>
-    <p>NE: 90.0, 180.0</p>
-    <p>SW: -90.0, -180.0</p> 
+    <p>NE: 90.0, </p>
+    <p>SW: -90.0, </p> 
   </center>
  
   <div id="map"></div>
@@ -25,9 +25,9 @@
   // initialize the map
   var map = L.map('map').setView([42.35, -71.08], 13);
   var float SWLatJS = -90.0;
-  var float SWLngJS = ;
+  var float SWLngJS = -180.0;
   var float NELatJS = 90.0;
-  var float NELngJS = ;
+  var float NELngJS = 180.0;
   // var map = L.map('map').setView([0, 0], 13);
   map.fitBounds([
     [40.712, -74.227],
