@@ -22,24 +22,24 @@
     {
       attribution: 'Tiles by <a href="http://mapc.org">MAPC</a>, Data by <a href="http://mass.gov/mgis">MassGIS</a>',
       maxZoom: 17,
-      minZoom: 9
+      // minZoom: 9
     }).addTo(map);
     
   $.getJSON("neighborhoods.geojson",function(hoodData){
     L.geoJson( hoodData ).addTo(map);
   });
  
-  $.getJSON("rodents.geojson",function(data){
-    var ratIcon = L.icon({
-      iconUrl: 'http://andywoodruff.com/maptime-leaflet/rat.png',
-      iconSize: [60,50]
-    });
-    L.geoJson(data,{
-      pointToLayer: function(feature,latlng){
-        var marker = L.marker(latlng,{icon: ratIcon});
-        marker.bindPopup(feature.properties.Location + '<br/>' + feature.properties.OPEN_DT);
-        return marker;
-      }
+  // $.getJSON("rodents.geojson",function(data){
+  //   var ratIcon = L.icon({
+  //     iconUrl: 'http://andywoodruff.com/maptime-leaflet/rat.png',
+  //     iconSize: [60,50]
+  //   });
+  //   L.geoJson(data,{
+  //     pointToLayer: function(feature,latlng){
+  //       var marker = L.marker(latlng,{icon: ratIcon});
+  //       marker.bindPopup(feature.properties.Location + '<br/>' + feature.properties.OPEN_DT);
+  //       return marker;
+  //     }
     }).addTo(map);
   });
  
