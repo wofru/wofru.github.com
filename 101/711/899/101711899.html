@@ -5,8 +5,8 @@
   <script src="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
   <style>
-    #map{ height: 100% }
-    #map{ height: 400px }
+    #map{ height: 100% } /** CAN GET RID OF THIS AS SET BELOW **/
+    #map{ height: 200px }
   </style>
 </head>
 <body>
@@ -23,20 +23,16 @@
   <script>
  
   // initialize the map
-  var map = L.map('map').setView([42.35, -71.08], 13);
+  var map = L.map('map').setView([42.35, -71.08], 13); // CAN GET RID OF SETVIEW, AS ITS SET BELOW
   var SWLatJS = 41.22968;
   var SWLngJS = -81.057595;
   var NELatJS = 41.247556;
   var NELngJS = -81.002759;
-  // var map = L.map('map').setView([0, 0], 13);
+
   map.fitBounds([
     [40.712, -74.227],
     [40.774, -74.125]
-  ]);
-  map.fitBounds([
-    [38.969332, -82.350061],
-    [38.98621, -82.326371]
-  ]);
+  ]); //CAN REMOVE THIS ABOVE AS ITS BEING RESET BELOW BY THE VARS
     map.fitBounds([
     [SWLatJS, SWLngJS],
     [NELatJS, NELngJS]
