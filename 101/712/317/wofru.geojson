@@ -1,0 +1,81 @@
+{
+  "id": 101712317,
+  "type": "Feature",
+  "properties": {
+    "edtf:cessation":"uuuu",
+    "edtf:inception":"uuuu",
+    "geom:area":0.000121,
+    "geom:bbox":"-83.947434,41.149447,-83.935675,41.160623",
+    "geom:latitude":41.154848,
+    "geom:longitude":-83.941197,
+    "iso:country":"US",
+    "lbl:latitude":41.154788,
+    "lbl:longitude":-83.940884,
+    "mps:latitude":41.154788,
+    "mps:longitude":-83.940884,
+    "name:eng_x_preferred":[
+        "Belmore"
+    ],
+    "qs:a0":"United States",
+    "qs:a1":"*Ohio",
+    "qs:a1_lc":"39",
+    "qs:a1r":"*",
+    "qs:adm0":"United States",
+    "qs:id":0,
+    "qs:la_lc":"*",
+    "qs:level":"locality",
+    "qs:loc":"Belmore",
+    "qs:loc_alt":"Belmore village",
+    "qs:loc_lc":"3905396",
+    "qs:pop":0,
+    "qs:source":"AUS Census",
+    "qs:type":"G4110",
+    "src:geom":"quattroshapes",
+    "src:geom_alt":[],
+    "src:lbl:centroid":"mapshaper",
+    "wof:belongsto":[
+        85688485,
+        102191575,
+        404525851,
+        85633793,
+        102084773
+    ],
+    "wof:breaches":[],
+    "wof:concordances":{
+        "fct:id":"08bf5784-8f76-11e1-848f-cfd5bf3ef515",
+        "gn:id":5147035,
+        "gp:id":2362303,
+        "wd:id":"Q2239351"
+    },
+    "wof:country":"US",
+    "wof:geomhash":"4f44f5f691f5a23cd189572270d1d727",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084773,
+            "localadmin_id":404525851,
+            "locality_id":101712317,
+            "region_id":85688485
+        }
+    ],
+    "wof:id":101712317,
+    "wof:lang":[
+        "eng"
+    ],
+    "wof:lastmodified":1452292909,
+    "wof:name":"Belmore",
+    "wof:parent_id":404525851,
+    "wof:placetype":"locality",
+    "wof:superseded_by":[],
+    "wof:supersedes":[],
+    "wof:tags":[]
+},
+  "bbox": [
+    -83.947434,
+    41.149447,
+    -83.935675,
+    41.160623
+],
+  "geometry": {"coordinates":[[[-83.947141,41.153098],[-83.946963,41.153099],[-83.946809,41.153103],[-83.946746,41.153106],[-83.94664299999999,41.15357],[-83.94659299999999,41.153766],[-83.946332,41.154971],[-83.946057,41.154926],[-83.94611999999999,41.155926],[-83.9462,41.16049],[-83.938644,41.160623],[-83.93841,41.160618],[-83.936583,41.160581],[-83.935901,41.160581],[-83.935716,41.153152],[-83.935675,41.152619],[-83.935682,41.149447],[-83.93848,41.149459],[-83.945048,41.149472],[-83.947434,41.149468],[-83.947356,41.153029],[-83.94735,41.153101],[-83.947141,41.153098]]],"type":"Polygon"}
+}

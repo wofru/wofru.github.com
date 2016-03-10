@@ -1,0 +1,81 @@
+{
+  "id": 101712849,
+  "type": "Feature",
+  "properties": {
+    "edtf:cessation":"uuuu",
+    "edtf:inception":"uuuu",
+    "geom:area":0.000027,
+    "geom:bbox":"-84.131444,40.050151,-84.125597,40.055446",
+    "geom:latitude":40.052767,
+    "geom:longitude":-84.128513,
+    "iso:country":"US",
+    "lbl:latitude":40.052781,
+    "lbl:longitude":-84.128514,
+    "mps:latitude":40.052781,
+    "mps:longitude":-84.128514,
+    "name:eng_x_preferred":[
+        "Casstown"
+    ],
+    "qs:a0":"United States",
+    "qs:a1":"*Ohio",
+    "qs:a1_lc":"39",
+    "qs:a1r":"*",
+    "qs:adm0":"United States",
+    "qs:id":0,
+    "qs:la_lc":"*",
+    "qs:level":"locality",
+    "qs:loc":"Casstown",
+    "qs:loc_alt":"Casstown village",
+    "qs:loc_lc":"3912462",
+    "qs:pop":0,
+    "qs:source":"AUS Census",
+    "qs:type":"G4110",
+    "src:geom":"quattroshapes",
+    "src:geom_alt":[],
+    "src:lbl:centroid":"mapshaper",
+    "wof:belongsto":[
+        85688485,
+        102191575,
+        404524059,
+        85633793,
+        102084719
+    ],
+    "wof:breaches":[],
+    "wof:concordances":{
+        "fct:id":"08c0a60c-8f76-11e1-848f-cfd5bf3ef515",
+        "gn:id":5149390,
+        "gp:id":2376039,
+        "wd:id":"Q2382911"
+    },
+    "wof:country":"US",
+    "wof:geomhash":"7c358dc208e19c4fe3d10bc478b46c20",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084719,
+            "localadmin_id":404524059,
+            "locality_id":101712849,
+            "region_id":85688485
+        }
+    ],
+    "wof:id":101712849,
+    "wof:lang":[
+        "eng"
+    ],
+    "wof:lastmodified":1452292907,
+    "wof:name":"Casstown",
+    "wof:parent_id":404524059,
+    "wof:placetype":"locality",
+    "wof:superseded_by":[],
+    "wof:supersedes":[],
+    "wof:tags":[]
+},
+  "bbox": [
+    -84.131444,
+    40.050151,
+    -84.125597,
+    40.055446
+],
+  "geometry": {"coordinates":[[[-84.131246,40.052001],[-84.13086800000001,40.054742],[-84.130804,40.055446],[-84.129386,40.05539],[-84.126103,40.055174],[-84.125597,40.055165],[-84.125726,40.054581],[-84.125879,40.052936],[-84.125997,40.05165],[-84.12609999999999,40.050151],[-84.129869,40.050274],[-84.131444,40.050455],[-84.131246,40.052001]]],"type":"Polygon"}
+}
